@@ -5,9 +5,9 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-20 animate-fadeIn scroll-mt-16 "
+      className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-20 animate-fadeIn scroll-mt-16  "
     >
-      <div className="container mx-auto flex items-center flex-col md:flex-row">
+      <div className="container mx-auto flex items-center flex-col md:flex-row px-10" >
         <div className="flex-shrink-0 md:mr-8">
           <img
             src={ProfileImage}
